@@ -1,11 +1,17 @@
 const element = (
-<div className="bgContainer">
+  <div className="super-over-league-container">
     <h1 className="heading">Super Over League</h1>
-    <div className="imageContainer">
-    <img className="image" src="https://assets.ccbp.in/frontend/react-js/rcb-img.png" />
-    <img className="image" src="https://assets.ccbp.in/frontend/react-js/csk-img.png" />
+    <div className="teams-container">
+      <img
+        src="https://assets.ccbp.in/frontend/react-js/rcb-img.png"
+        className="logo-image"
+      />
+      <img
+        src="https://assets.ccbp.in/frontend/react-js/csk-img.png"
+        className="logo-image"
+      />
     </div>
-</div>
+  </div>
 )
 
 ReactDOM.render(element, document.getElementById('root'))
